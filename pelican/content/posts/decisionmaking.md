@@ -16,7 +16,7 @@ Building models for decision making soon trascended to other fields as I reflect
 
 Reading scientific articles on quantiative analysis for financial investment decisions followed soon after.
 
-I decided to combined my skills by managing my own investment portfolio.
+I decided to combine my skills by managing my own investment portfolio.
 
 Investigating quantitative and qualitative models became my second nature.
 
