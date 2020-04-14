@@ -8,9 +8,9 @@ cover: images/book.jpg
 # How I built this website
 ---
 
-I wanted to create my own website, so first I tried [Joomla](https://www.joomla.org/) next to my hosting provider [Strato](https://www.strato.com/). Not long before I had created an ecommerce store with [Wix](https://www.wix.com/) and a website [Jimdo](www.jimdo.com), but this time I wanted full control.
+I wanted to create my own website, so first I tried [Joomla](https://www.joomla.org/) next to my hosting provider [Strato](https://www.strato.com/). Not long before I had created an ecommerce store with [Wix](https://www.wix.com/) and a website with [Jimdo](www.jimdo.com), but this time I wanted full control.
 
-After some hands-on time with Joomla and reading about WordPress, I found CMS an overkill for the site in mind. So I turned to static website generators.
+After some hands-on time with Joomla and reading about [WordPress](https://wordpress.org/), I found CMS an overkill for the site in mind. So I turned to static website generators.
 
 Since I code on Python and I am familiar with Markdown, I found [Pelican](https://blog.getpelican.com/) very appealing to my needs. 
 
