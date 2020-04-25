@@ -50,9 +50,9 @@ EXTRA_PATH_METADATA = {
 
 THEME = 'attila'
 
-PLUGIN_PATHS = ['pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins', 'plugins']
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-PLUGINS = ['i18n_subsites', 'pelican-ipynb.markup']
+PLUGINS = ['i18n_subsites', 'ipynb.markup']
 I18N_TEMPLATES_LANG = 'en'
 
 MARKUP = ('md', 'ipynb')
