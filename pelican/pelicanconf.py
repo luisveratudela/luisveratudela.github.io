@@ -50,6 +50,14 @@ EXTRA_PATH_METADATA = {
 
 THEME = 'attila'
 
+PLUGIN_PATHS = ['pelican-plugins']
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGINS = ['i18n_subsites', 'pelican-ipynb.markup']
+I18N_TEMPLATES_LANG = 'en'
+
+MARKUP = ('md', 'ipynb')
+IGNORE_FILES = [".ipynb_checkpoints"]
+
 # set header background, if posts have no cover image
 HEADER_COVER = 'images/typewritter.jpg'
 HEADER_COLOR = 'black'
