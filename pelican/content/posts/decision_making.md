@@ -1,6 +1,6 @@
 title: Decision making
 date: 2020-04-01
-slug: decision
+slug: decision-making
 category: intro
 summary: why decision making
 cover: images/book.jpg
@@ -20,5 +20,4 @@ I decided to combine my skills by managing my own investment portfolio.
 
 Investigating quantitative and qualitative models became my second nature.
 
-This site is a collection of personal notes on decision making. 
-
+This site is a collection of personal notes on decision making.
