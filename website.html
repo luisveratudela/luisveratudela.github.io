@@ -144,9 +144,34 @@
 <hr>
 <p>I wanted to create my own website, so first I tried <a href="https://www.joomla.org/">Joomla</a> next to my hosting provider <a href="https://www.strato.com/">Strato</a>. Not long before I had created an ecommerce store with <a href="https://www.wix.com/">Wix</a> and a website with <a href="www.jimdo.com">Jimdo</a>, but this time I wanted full control.</p>
 <p>After some hands-on time with Joomla and reading about <a href="https://wordpress.org/">WordPress</a>, I found CMS an overkill for the site in mind. So I turned to static website generators.</p>
-<p>Since I code on Python and I am familiar with Markdown, I found <a href="https://blog.getpelican.com/">Pelican</a> very appealing to my needs. </p>
-<p>After I came accross with <a href="https://pages.github.com/">GitHub Pages</a>, I decided to host it from my own repository. Researching a bit, I found this step-by-step <a href="https://pythonforundergradengineers.com/how-i-built-this-site-1.html">guide</a> very useful.</p>
+<p>Since I code in Python and I am familiar with Markdown, I found <a href="https://blog.getpelican.com/">Pelican</a> very appealing to my needs. I use <a href="https://www.anaconda.com/">Anaconda</a> for my data science projects.</p>
+<p>After I came across with <a href="https://pages.github.com/">GitHub Pages</a>, I decided to host the website from my own repository. Researching a bit, I found this step-by-step <a href="https://pythonforundergradengineers.com/how-i-built-this-site-1.html">guide</a> very useful.</p>
 <p>The repository of this website is available in <a href="https://github.com/luisveratudela/luisveratudela.github.io">GitHub.</a></p>
+<h2>Maintenance</h2>
+<p>Website maintenance is as easy as with any other repository, since GitHub Pages publishes directly from its root. You can create a separate branch in GitHub to keep code and documentation separated, but I preferred to publish directly to the root.</p>
+<p>I normally work from the Anaconda prompt. So first, you need to activate the environment created for the website and check that the local repository is up to date.</p>
+<div class="highlight"><pre><span></span><code>(base) C:\activate staticsite
+(staticsite) C:\cd repository
+(staticsite) C:\repository&gt; git pull origin master
+</code></pre></div>
+
+
+<p>Pelican is in a subdirectory of the repository, since the website is published to its root. After website posts are created in Markdown, you need to publish them back to the root of the local repository. This step overwrites any previous content.  </p>
+<div class="highlight"><pre><span></span><code>(staticsite) C:\repository\cd pelican
+(staticsite) C:\repository\pelican&gt;pelican -s pelicanconf.py -o .. content
+</code></pre></div>
+
+
+<p>More often than not I want to visualize the changes locally. So, I go to the output folder, which in this case is the root of the repository and open a local server using Python.</p>
+<div class="highlight"><pre><span></span><code>(staticsite) C:\repository&gt;python -m http.server
+</code></pre></div>
+
+
+<p>Once the website is correctly compiled, the next step is to push the local repository back to GitHub. GitHub Pages will take it from there and publish it.</p>
+<div class="highlight"><pre><span></span><code> (staticsite) C:\repository&gt; git add .
+ (staticsite) C:\repository&gt; git commit -m &quot;comment for documentation&quot;
+ (staticsite) C:\repository&gt; git push origin master
+</code></pre></div>
             </section>
 
             <section class="post-info">
