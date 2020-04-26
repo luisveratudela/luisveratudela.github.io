@@ -54,7 +54,7 @@ THEME = 'attila'
 # https://github.com/danielfrg/pelican-ipynb
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb.markup']
+PLUGINS = ['ipynb.markup', 'ipynb.liquid']
 IGNORE_FILES = ['.ipynb_checkpoints']
 
 # set header background, if posts have no cover image
