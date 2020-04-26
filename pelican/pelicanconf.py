@@ -50,6 +50,13 @@ EXTRA_PATH_METADATA = {
 
 THEME = 'attila'
 
+# add jupyter notebook using downloaded plugin (26-04-2020):
+# https://github.com/danielfrg/pelican-ipynb
+MARKUP = ('md', 'ipynb')
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb.markup']
+IGNORE_FILES = ['.ipynb_checkpoints']
+
 # set header background, if posts have no cover image
 HEADER_COVER = 'images/typewritter.jpg'
 HEADER_COLOR = 'black'
