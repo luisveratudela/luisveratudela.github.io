@@ -50,11 +50,6 @@ EXTRA_PATH_METADATA = {
 
 THEME = 'attila'
 
-MARKUP = ('md', 'ipynb')
-PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb.markup']
-IGNORE_FILES = ['.ipynb_checkpoints']
-
 # set header background, if posts have no cover image
 HEADER_COVER = 'images/typewritter.jpg'
 HEADER_COLOR = 'black'
