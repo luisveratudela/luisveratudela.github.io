@@ -53,8 +53,8 @@ THEME = 'attila'
 # add jupyter notebook using downloaded plugin (26-04-2020):
 # https://github.com/danielfrg/pelican-ipynb
 MARKUP = ('md', 'ipynb')
-PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb.markup', 'ipynb.liquid']
+#PLUGIN_PATHS = ['./plugins']
+#PLUGINS = ['ipynb.markup', 'ipynb.liquid']
 IGNORE_FILES = ['.ipynb_checkpoints']
 
 # set header background, if posts have no cover image
