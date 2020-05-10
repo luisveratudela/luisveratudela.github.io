@@ -16,4 +16,4 @@ In philosophy of science you talk about the _cognitive basis of model-based reas
 
 My investigation was on data science and wind turbines. To fill the gap between building hypothesis with data and making decisions based on new insights, I researched about decision making. At the end of my research I described it as applied decision making in wind energy using data science.
 
-After completing my PhD I chose to go back to the industry over pursuing and academic path. Right now, nurturing my curiosity around decision making enrich my daily work. This site should grow as a collection of notes, where I will curate information about applied decision making.
+After completing my PhD I chose to go back to the industry over pursuing and academic path. Right now, nurturing my curiosity around decision making improves my daily work. This site should grow as a collection of notes, where I will curate information about applied decision making.
