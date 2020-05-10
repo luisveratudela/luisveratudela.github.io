@@ -3,7 +3,7 @@ date: 2020-04-14
 modified: 2020-04-25
 slug: how-I-built-this-website
 category: docs
-summary: website documentation
+summary: A bit of documentation to maintain a site with GitHub
 cover: images/book.jpg
 
 # How I built this website
