@@ -12,7 +12,9 @@ I discovered my passion about decision making while carrying out my PhD research
 
 Researchers endure long strikes of frustration, and I wasn't going to be the exception. That motivated me to review my own thinking process. So, after repeating my answer many times to family and friends, I started questioning myself why did I make such decision.
 
-In philosophy of science you talk about the _cognitive basis of model-based reasoning_. In psychology you refer to _self-awareness_. Spiritual people call it the difference between _You_ and your _Ego_. Looking at the connection of different sources of knowledge is what sparked my interest.
+In philosophy of science you talk about the _cognitive basis of model-based reasoning_. In psychology you refer to _self-awareness_. Spiritual people call it the difference between _Self_ and your _Ego_. Looking at the connection of different sources of knowledge is what sparked my interest.
+
+![self_ego]({attach}../images/self_ego.png)
 
 My investigation was on data science and wind turbines. To fill the gap between building hypothesis with data and making decisions based on new insights, I researched about decision making. At the end of my research I described it as applied decision making in wind energy using data science.
 
