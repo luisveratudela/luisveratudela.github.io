@@ -1,5 +1,5 @@
 title: about
-date: 2020-04-01
+date: 2020-10-01
 slug: about
 category: intro
 author: Luis
@@ -9,8 +9,6 @@ cover: ./images/book.jpg
 Hi there,
 
 I am Luis and I don't like about me pages. So here we go.
-
-Nowadays I lead an engineering team at Polytech, aiming at making wind turbines smarter.
 
 My current research interest is on decision making. Particularly I focus on mental models.
 
